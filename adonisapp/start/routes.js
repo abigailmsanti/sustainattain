@@ -16,4 +16,11 @@
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use('Route')
 
+
+//landing page
 Route.on('/home').render('home')
+
+//question 1
+Route.on('/question1').render('question1')
+
+Route.on('/result').render('impact')
