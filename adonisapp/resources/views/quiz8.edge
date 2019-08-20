@@ -1,0 +1,35 @@
+@layout('layouts.main')
+@section('unique_styles')
+<link rel="stylesheet" href="css/agency.min.css">
+<link rel="stylesheet" href="css/quiz.css">
+@endsection
+
+@section('content')
+<div style="height:75px;"></div>
+<link rel="stylesheet" href="css/quiz.css">
+  
+</head>
+<body>
+    
+    <div id="quiz"></div>
+    <div style="text-align: center;">
+        <button id="submit">Submit</button>
+    </div>
+    <div style="text-align:left;">
+        <button id="prevButton"> <- Previous Question</button>
+    </div>
+    <div id="results"></div>
+    
+    <script src="js/quiz8.js"></script>
+    <script
+          src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+          crossorigin="anonymous"
+        ></script>
+        <script
+          src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.js"
+          integrity="sha256-qs5p0BFSqSvrstBxPvex+zdyrzcyGdHNeNmAirO2zc0="
+          crossorigin="anonymous"
+        ></script>
+    @endsection
+    
