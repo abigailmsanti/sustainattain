@@ -18,7 +18,7 @@ const Route = use('Route')
 
 
 //landing page
-Route.on('/home').render('home')
+Route.on('/').render('home')
 
 Route.on('/result').render('impact')
 Route.on('/quiz1').render('quiz1')
