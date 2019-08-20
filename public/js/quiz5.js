@@ -98,8 +98,8 @@ buildQuiz();
 submitButton.addEventListener("click", showResults);
 //click next, go to next question
 prevButton.addEventListener("click", function() {
-  location.assign("http://127.0.0.1:3333/quiz4");
+  location.assign("/quiz/4");
 });
 nextButton.addEventListener("click", function() {
-    location.assign("http://127.0.0.1:3333/quiz6");
+    location.assign("/quiz/6");
   });
