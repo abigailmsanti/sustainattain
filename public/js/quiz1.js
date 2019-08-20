@@ -8,11 +8,11 @@ const questions = [
     question: "Which personal action would reduce the most carbon emissions?",
     answers: {
       A:
-        "Reducing food waste (1st equivalent to getting 495 million cars off the road)",
-      B: "Composting (4th equivalent to getting 16 million cars off the road)",
+        "Reducing food waste",
+      B: "Composting",
       C:
-        "Eating a plant-based diet (2nd equivalent to getting 464 million cars)",
-      D: "Driving an electric car (3rd equivalent to getting 75.7 million cars)"
+        "Eating a plant-based diet",
+      D: "Driving an electric car"
     },
     correctAnswer: "A"
   }

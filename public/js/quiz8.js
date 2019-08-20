@@ -8,8 +8,8 @@ const questions = [
     question:
       "Which of these actions would have the most gigaton carbon reduction?",
     answers: {
-      A: "LED commercial light bulbs",
-      B: "Indigenous Peoples’ Land Management",
+      A: "LED light bulbs",
+      B: "Indigenous Land Management",
       C: "Household Recycling",
       D: "Composting"
     },
