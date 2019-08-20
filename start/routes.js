@@ -1,4 +1,4 @@
-'use strict'
+"use strict";
 
 /*
 |--------------------------------------------------------------------------
@@ -14,31 +14,15 @@
 */
 
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
-const Route = use('Route')
-
+const Route = use("Route");
 
 //landing page
 Route.on('/').render('home')
 
-Route.on('/result').render('impact')
-Route.on('/quiz1').render('quiz1')
+Route.on("/result").render("impact");
 
-Route.on('/quiz2').render('quiz2')
+Route.get("quiz/:id", ({ view, params }) => {
+  return view.render(`quiz/${params.id}`);
+});
 
-Route.on('/quiz3').render('quiz3')
-
-Route.on('/quiz4').render('quiz4')
-
-Route.on('/quiz5').render('quiz5')
-
-Route.on('/quiz6').render('quiz6')
-
-Route.on('/quiz7').render('quiz7')
-
-Route.on('/quiz8').render('quiz8')
-
-Route.on('/test').render('test')
-
-
-
-
+Route.on("/test").render("test");

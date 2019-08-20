@@ -95,8 +95,8 @@ buildQuiz();
 submitButton.addEventListener("click", showResults);
 //click next, go to next question
 prevButton.addEventListener("click", function() {
-  location.assign("http://127.0.0.1:3333/quiz3");
+  location.assign("/quiz/3");
 });
 nextButton.addEventListener("click", function() {
-    location.assign("http://127.0.0.1:3333/quiz5");
+    location.assign("/quiz/5"); 
   });
