@@ -1,5 +1,6 @@
 body{
   background-color: rgb(113, 122, 114) !important;
+  display: grid;
 }
 .question {
   font-size: 35px;
@@ -37,7 +38,6 @@ body{
   "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
   "Segoe UI Symbol", "Noto Color Emoji";
   text-align: center;
-  margin: 2em 0 0;
 
 }
 #results {
@@ -109,5 +109,7 @@ input[type="radio"]:checked {
   background-color: #f1f1f1;
 }
 
-
-
+.logo {
+  height: 20%;
+  width: 30%
+}

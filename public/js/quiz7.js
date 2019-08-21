@@ -9,9 +9,9 @@ const questions = [
     question:
       "In February 1994, Executive Order 12898 was created to “address environmental justice in minority and low-income populations.” Which of these are examples of environmental injustices? ",
     answers: {
-      A: "The Flint, Michigan Water Crisis",
-      B: "Hurricane Katrina",
-      C: "The Dakota Access Pipeline",
+      A: " Flint, Michigan: Water Crisis",
+      B: "Louisiana and Florida: Hurricane Katrina",
+      C: "North and South Dakota: Dakota Access Pipeline",
       D: "All of the above!"
     },
     correctAnswer: "D"
