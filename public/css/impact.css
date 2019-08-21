@@ -258,10 +258,17 @@
 
   .img-fluid:hover .event-hover {
       opacity: 1;
+
+
+  .logo {
+    height: 20%;
+    width: 30%;
   }
+
  .title-text{
    text-align: center;
  }
  .sub-text{
    text-align: center;
  }
+
