@@ -259,3 +259,8 @@
   .img-fluid:hover .event-hover {
       opacity: 1;
   }
+
+  .logo {
+    height: 20%;
+    width: 30%;
+  }
