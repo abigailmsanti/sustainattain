@@ -234,14 +234,14 @@ header.masthead .intro-text hr {
 }
 
 .row {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  margin: 25px;
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  overflow: auto;
+  padding-left: 25px;
 }
 
 .row .card {
-  flex: 0 0 auto;
+  flex: 0 0 auto !important; 
   padding: 15px;
   margin: 10px;
 }
@@ -250,12 +250,13 @@ header.masthead .intro-text hr {
   text-align: center;
 }
 
-.left {
+.date {
   padding: 0px;
   text-align: left;
 }
 
-.right {
+.time {
+  position: relative;
   padding: 0px;
   text-align: right;
 }
