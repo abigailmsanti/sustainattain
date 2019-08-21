@@ -5,19 +5,17 @@
 @endsection
 
 @section('content')
-<div style="height:75px;"></div>
-<link rel="stylesheet" href="/css/quiz.css">
-  
-</head>
-<body>
-    
-    <div id="quiz"></div>
+<div style="height:100px;"></div>
+  <div class="panel panel-default">
+     <div class="panel-body"> 
+        <div id="quiz"></div>
+     </div>  
     <div style="text-align: center;">
         <button id="submit">Submit</button>
     </div>
-    <div style="height:25px;"></div>
+    <div style="height:15px;"></div>
     <div style="text-align:left;">
-        <button id="prevButton"> <- Prev Question</button>
+        <button id="prevButton">Previous</button>
         </div>
     <div style="height: 50px;"></div>
     <div id="results"></div>
@@ -34,4 +32,5 @@
           crossorigin="anonymous"
         ></script>
     @endsection
+
     

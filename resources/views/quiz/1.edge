@@ -5,14 +5,17 @@
 @endsection
 
 @section('content')
-<div style="height:75px;"></div>
-<div id="quiz"></div>
-<div style="text-align: center;">
-    <button id="submit">Submit Answer</button>
+<div style="height:100px;"></div>
+<div class="panel panel-default">
+  <div class="panel-body">
+     <div id="quiz"></div>
 </div>
-<div style="height:25px;"></div>
+<div style="text-align: center;">
+    <button id="submit">Submit</button>
+</div>
+<div style="height:15px;"></div>
 <div style="text-align:right;">
-    <button id="nextButton">Next Question -></button>
+    <button id="nextButton">Next</button>
     </div>
 <div style="height: 50px;"></div>
 <div id="results"></div>
@@ -29,3 +32,5 @@
       crossorigin="anonymous"
     ></script>
 @endsection
+
+

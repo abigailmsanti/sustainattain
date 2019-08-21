@@ -78,8 +78,7 @@ img::-moz-selection {
   font-weight: 700;
   background-color: #83c9a4 !important;
   border-color: #83c9a4 !important;
-  height: 75px;
-  width: 200px;
+
 }
 
 .btn-xl {
@@ -102,6 +101,11 @@ img::-moz-selection {
   -webkit-box-shadow: 0 0 0 0.2rem #3f664c !important;
   box-shadow: 0 0 0 0.2rem #3f664c !important;
 }
+/* #quizbutton {
+  text-align: center;
+  vertical-align: center;
+  background-color: black;
+} */
 #mainNav {
   background-color: #212529;
 }
