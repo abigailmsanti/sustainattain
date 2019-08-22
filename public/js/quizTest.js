@@ -206,7 +206,7 @@ nextButton.addEventListener("click", function() {
   
   if(questionNum === 8){
     alert(`${numCorrect}/8`)
-    location.assign("/result");
+    location.assign("/impact");
   }
   questionArray = [questions[questionNum]];
   console.log(questionNum);

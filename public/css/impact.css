@@ -280,6 +280,7 @@ header.masthead .intro-text hr {
   flex-wrap: nowrap !important;
   overflow: auto;
   padding-left: 25px;
+  padding-right: 25px;
 }
 
 .logo {
@@ -350,3 +351,6 @@ a#link {
   font-size: 14.4px;
 }
 
+#communityengagement {
+  background-color: rgb(238, 235, 226) !important;
+}
