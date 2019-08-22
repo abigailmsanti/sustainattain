@@ -24,7 +24,7 @@ body{
   background-color: white;
 }
 .footer{
-  background-color:rgb(218, 205, 190);
+  background-color:rgb(238, 235, 226);
   padding: 25px 0;
   text-align: center;
 
@@ -161,7 +161,7 @@ button:focus {
   padding-bottom: 2%;
   padding-left: auto;
   padding-right: auto;
-  background-color: rgb(218, 205, 190);
+  background-color: rgb(238, 235, 226);
 }
 
 span.copyright {

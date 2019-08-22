@@ -205,7 +205,7 @@ nextButton.addEventListener("click", function() {
   questionNum += 1;
   
   if(questionNum === 8){
-    alert(`${numCorrect}/8`)
+    alert(`Your score is ${numCorrect}/8!`)
     location.assign("/impact");
   }
   questionArray = [questions[questionNum]];
