@@ -19,10 +19,12 @@ const Route = use("Route");
 //landing page
 Route.on('/').render('home')
 
-Route.on("/result").render("impact");
+Route.on("/impact").render("impact");
 
-Route.get("quiz/:id", ({ view, params }) => {
-  return view.render(`quiz/${params.id}`);
-});
+Route.on("/quizTest").render("quiz/quizTest");
+
+//Route.get("quizTest/:id", ({ view, params }) => {
+ // return view.render(`quiz/${params.id}`);
+//});
 
 Route.on("/test").render("test");
