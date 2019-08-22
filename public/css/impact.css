@@ -341,6 +341,12 @@ header.masthead .intro-text hr {
   width: 25%;
 }
 
+#time-row {
+  position: absolute;
+  width: 90%;
+  bottom: 0;
+}
+
 .row .card {
   flex: 0 0 auto !important; 
   padding: 15px;
@@ -352,6 +358,7 @@ header.masthead .intro-text hr {
 }
 
 .date {
+  position: relative;
   padding: 0px;
   text-align: left;
 }
