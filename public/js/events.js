@@ -67,7 +67,7 @@ function cardify({ url, logo, name, start }) {
     </a>
     <div class="card-body">
         <h5 class="card-title">${name.text}</h5>
-        <div class="row">
+        <div class="row" id="time-row">
             <div class="col date">
                 <p class="card-date">${date}</p>
             </div>   
