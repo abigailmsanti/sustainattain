@@ -19,7 +19,7 @@ const Route = use("Route");
 //landing page
 Route.on('/').render('home')
 
-Route.on("/result").render("impact");
+Route.on("/impact").render("impact");
 
 Route.on("/quizTest").render("quiz/quizTest");
 

@@ -1,0 +1,1 @@
+let picArray = [planetb.jpg, ]
