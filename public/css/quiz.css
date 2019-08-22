@@ -26,6 +26,9 @@ body{
 }
 .footer{
   background-color:rgb(218, 205, 190);
+  padding: 25px 0;
+  text-align: center;
+
 }
 #quiz {
   text-align: center;
@@ -133,4 +136,8 @@ button:hover{
 }
 button:focus {
   outline: 0 !important;
+}
+
+#makedisappear {
+  opacity: 0 !important;
 }
