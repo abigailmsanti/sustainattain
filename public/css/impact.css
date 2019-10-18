@@ -237,40 +237,40 @@ header.masthead .intro-text {
 
 @keyframes slide {
   0% {
-    background-image: url(/img/impact-photos/hands.jpg);
+    background-image: url(/img/optimized-impact-photos/hands-min.jpg);
   }
   16% {
-    background-image: url(/img/impact-photos/hands.jpg);
+    background-image: url(/img/optimized-impact-photos/hands-min.jpg);
   }
   16.01% {
-    background-image: url(/img/impact-photos/planting.jpg);
+    background-image: url(/img/optimized-impact-photos/planting-min.jpg);
   }
   32% {
-    background-image: url(/img/impact-photos/planting.jpg);
+    background-image: url(/img/optimized-impact-photos/planting-min.jpg);
   }
   32.01% {
-    background-image: url(/img/impact-photos/rainforest.jpg);
+    background-image: url(/img/optimized-impact-photos/rainforest-min.jpg);
   }
   48% {
-    background-image: url(/img/impact-photos/rainforest.jpg);
+    background-image: url(/img/optimized-impact-photos/rainforest-min.jpg);
   }
   48.01% {
-    background-image: url(/img/impact-photos/conference.jpg);
+    background-image: url(/img/optimized-impact-photos/conference-min.jpg);
   }
   64% {
-    background-image: url(/img/impact-photos/conference.jpg);
+    background-image: url(/img/optimized-impact-photos/conference-min.jpg);
   }
   64.01% {
-    background-image: url(/img/impact-photos/plastic.jpg);
+    background-image: url(/img/optimized-impact-photos/plastic-min.jpg);
   }
   80% {
-    background-image: url(/img/impact-photos/plastic.jpg);
+    background-image: url(/img/optimized-impact-photos/plastic-min.jpg);
   }
   80.01% {
-    background-image: url(/img/impact-photos/veg.jpg);
+    background-image: url(/img/optimized-impact-photos/veg-min.jpg);
   }
   100%{
-    background-image: url(/img/impact-photos/veg.jpg);
+    background-image: url(/img/optimized-impact-photos/veg-min.jpg);
   }
 }
 

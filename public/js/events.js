@@ -6,6 +6,7 @@ navigator.geolocation.getCurrentPosition(function(position) {
   ].map(({ keyword, selector }) => {
     getEvents(position.coords, keyword, selector);
   });
+  console.log(position.coords);
 });
 
 function getEvents({ latitude, longitude }, keyword, selector) {
@@ -34,11 +35,12 @@ function getEvents({ latitude, longitude }, keyword, selector) {
 
   request.onload = function() {
     var data = JSON.parse(this.response);
-
+    console.log(data);
+    console.log(request.status);
     if (request.status >= 200 && request.status < 400) {
       //prettier-ignore
-      let sortedEvents = data.events.sort((a, b) => new Date(a.start.local) - new Date(b.start.local));
-      // console.log(sortedEvents);
+      let sortedEvents = data.top_match_events.sort((a, b) => new Date(a.start.local) - new Date(b.start.local));
+      console.log(data.events);
       sortedEvents.map(cardify).map(card => $(card).appendTo(selector));
       // cardify(sortedEvents);
     } else {
@@ -53,7 +55,7 @@ function getEvents({ latitude, longitude }, keyword, selector) {
 function cardify({ url, logo, name, start }) {
   logo = logo || { url: "/img/eventbrite-logo.png" };
   let d = new Date(start.local).toLocaleDateString();
-  let date = d.substring(0, d.length - 5);
+  let date = d.substring(0, d.length - 5);  
   //prettier-ignore
   let time = new Date(start.local).toLocaleTimeString().replace(/:\d+/, "");
 

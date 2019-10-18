@@ -217,40 +217,40 @@ header.masthead .intro-text .intro-heading {
 
 @keyframes slide {
   0% {
-    background-image: url(/img/home-photos/planetb.jpg);
+    background-image: url(/img/optimized-home-photos/planetb-min.jpg);
   }
   16% {
-    background-image: url(/img/home-photos/planetb.jpg);
+    background-image: url(/img/optimized-home-photos/planetb-min.jpg);
   }
   16.01% {
-    background-image: url(/img/home-photos/trees.jpg);
+    background-image: url(/img/optimized-home-photos/trees-min.jpg);
   }
   32% {
-    background-image: url(/img/home-photos/trees.jpg);
+    background-image: url(/img/optimized-home-photos/trees-min.jpg);
   }
   32.01% {
-    background-image: url(/img/home-photos/drought.jpg);
+    background-image: url(/img/optimized-home-photos/drought-min.jpg);
   }
   48% {
-    background-image: url(/img/home-photos/drought.jpg);
+    background-image: url(/img/optimized-home-photos/drought-min.jpg);
   }
   48.01% {
-    background-image: url(/img/home-photos/oil.jpg);
+    background-image: url(/img/optimized-home-photos/oil-min.jpg);
   }
   64% {
-    background-image: url(/img/home-photos/oil.jpg);
+    background-image: url(/img/optimized-home-photos/oil-min.jpg);
   }
   64.01% {
-    background-image: url(/img/home-photos/trash.jpg);
+    background-image: url(/img/optimized-home-photos/trash-min.jpg);
   }
   80% {
-    background-image: url(/img/home-photos/trash.jpg);
+    background-image: url(/img/optimized-home-photos/trash-min.jpg);
   }
   80.01% {
-    background-image: url(/img/home-photos/child.jpg);
+    background-image: url(/img/optimized-home-photos/child-min.jpg);
   }
   100%{
-    background-image: url(/img/home-photos/child.jpg);
+    background-image: url(/img/optimized-home-photos/child-min.jpg);
   }
 }
 
